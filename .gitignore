@@ -5,7 +5,5 @@ test_measurements.txt
 
 tests
 
-src/engine/objects/assault_frigate
-src/engine/objects/imperial_shuttle
-src/engine/objects/corvette
 additional objects
+src/engine/objects

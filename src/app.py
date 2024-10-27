@@ -74,7 +74,7 @@ class Window(tk.Frame):
         self.grid_columnconfigure(2, weight=1)
 
         # Load background image and set up panel
-        self.image = Image.open("src/engine/textures/title_screen.png")
+        self.image = Image.open("src/engine/textures/title_screen_1.png")
         self.image_copy= self.image.copy()
         self.background_image = ImageTk.PhotoImage(self.image)
         self.background = tk.Label(self, image=self.background_image)
